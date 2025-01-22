@@ -1,25 +1,22 @@
-import java.util.Arrays.*;
-
-public class ProductOfArrayExceptItself {
-    public static void main(String[] args) {
-        int[] nums = {1, 2, 3, 4};
-        int size = nums.length;
-        int[] answer = new int[size];
-
-        for (int i = 0; i < nums.length; i++)
-        {
-            int product = 1;
-            for (int j = 0; j < nums.length; j++)
-            {
-                if (i != j) {
-                    product = product * nums[j];
-                }
-            }
-            answer[i] = product;
+class Solution {
+    public int[] productExceptSelf(int[] nums) {
+        int[] output = new int[nums.length];
+        for (int i = 0; i < nums.length; i++) {
+            output[i] = 1;
         }
 
-        for (int i : answer) {
-            System.out.println(i);
+        int left = 1;
+        for (int i = 0; i < nums.length; i++) {
+            output[i] *= left;
+            left *= nums[i];
         }
+
+        int right = 1;
+        for (int i = nums.length - 1; i >= 0; i--) {
+            output[i] *= right;
+            right *= nums[i];
+        }
+        
+        return output;        
     }
 }
