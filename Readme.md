@@ -12,10 +12,10 @@ The **LeetCode-75 Challenge** is a curated list of essential coding problems des
 ---
 
 ## 🔥 **Repository Highlights**
-- 💡 **Problem Descriptions**: Each solution comes with a brief problem summary and key insights into the approach used.
-- ✅ **Languages**: Solutions are written in [list the languages, e.g., Python, C++, Java].
+- 💡 **Problem Descriptions**: Each solution uses O(n) time complexity and O(1) space complexity.
+- ✅ **Languages**: Solutions are written in Java.
 - 🚀 **Well-Commented Code**: Easy-to-follow and understand.
-- 📂 **Structured Organization**: Files are neatly organized by difficulty and topic for quick access.
+- 📂 **Structured Organization**: Files are neatly organized by sequence provided by Leetcode platform.
 
 ---
 
@@ -24,13 +24,13 @@ The repository is organized as follows:
 
 ```plaintext
 📦 LeetCode-75-Challenge
-├── 📁 Easy
+├── Day 1
 │   ├── problem1_solution.py
 │   ├── problem2_solution.py
-├── 📁 Medium
+├── Day 2
 │   ├── problem3_solution.py
 │   ├── problem4_solution.py
-├── 📁 Hard
+├── Day 3
 │   ├── problem5_solution.py
 ├── README.md
 ```
@@ -38,41 +38,33 @@ The repository is organized as follows:
 ---
 
 ## 🗂️ **Table of Contents**
-| Difficulty | Topics Covered                           | Problems Solved |
-|------------|------------------------------------------|-----------------|
-| Easy       | Arrays, Strings                         | 10              |
-| Medium     | Dynamic Programming, Binary Search      | 15              |
-| Hard       | Graphs, Advanced Algorithms             | 5               |
+| Topics Covered                           | Problems Solved |
+|------------------------------------------|-----------------|
+| Arrays, Strings                         | 10              |
+| Dynamic Programming, Binary Search      | 15              |
+| Graphs, Advanced Algorithms             | 5               |
 
 ---
 
 ## 🛠️ **How to Use**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/leetcode-75-solutions.git
+   git clone https://github.com/GaneshRenuse/Leetcode-75-Challenge.git
    ```
 2. Navigate to the desired problem file and review the solution.
 
-3. Run the code (Example for Python):
+3. Run the code (Example in java):
    ```bash
-   python problem1_solution.py
+   javac problem1_solution.java
+   java problem1_solution
    ```
 
 ---
 
 ## 🏆 **Milestones**
-- 🎯 Solved 30/75 Problems
-- 📅 Consistently solving 5 problems per week
-- 💪 Goal: Complete all 75 problems by [your target date]
-
----
-
-## 📊 **Progress Tracker**
-| Problem Number | Title                               | Difficulty | Solution Link                 |
-|----------------|-------------------------------------|------------|-------------------------------|
-| 1              | Two Sum                            | Easy       | [Solution](./Easy/problem1_solution.py) |
-| 2              | Longest Substring Without Repeating Characters | Medium | [Solution](./Medium/problem2_solution.py) |
-| ...            | ...                                 | ...        | ...                           |
+- 🎯 Solved 21/75 Problems
+- 📅 Consistently solving 2 problems per day
+- 💪 Goal: Complete all 75 problems by [February 23, 2025]
 
 ---
 
@@ -92,6 +84,6 @@ Special thanks to the **LeetCode** team for crafting the challenge and providing
 ---
 
 ## 📝 **Contact**
-- **GitHub**: [your-username](https://github.com/your-username)  
-- **LinkedIn**: [your-profile](https://linkedin.com/in/your-profile)  
-- **Email**: your-email@example.com  
+- **GitHub**: [GaneshRenuse](https://github.com/GaneshRenuse/)  
+- **Leetcode**: [GaneshR29](https://leetcode.com/u/GaneshR29/)  
+- **Email**: ganesh21renuse3@gmail.com  
