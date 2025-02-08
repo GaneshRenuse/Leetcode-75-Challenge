@@ -40,9 +40,15 @@ The repository is organized as follows:
 ## 🗂️ **Table of Contents**
 | Topics Covered                           | Problems Solved |
 |------------------------------------------|-----------------|
-| Arrays, Strings                         | 10              |
-| Dynamic Programming, Binary Search      | 15              |
-| Graphs, Advanced Algorithms             | 5               |
+| Arrays, Strings                          | 9               |
+| Two Pointers                             | 4               |
+| Sliding Window                           | 4               |
+| Prefix Sum                               | 2               |
+| HashMap/Set                              | 4               |
+| Stack                                    | 3               |
+| Queue                                    | 2               |
+| LinkedList                               | 4               |
+| Binary tree DFS-BFS                      | 8               |
 
 ---
 
@@ -62,7 +68,7 @@ The repository is organized as follows:
 ---
 
 ## 🏆 **Milestones**
-- 🎯 Solved 21/75 Problems
+- 🎯 Solved 39/75 Problems
 - 📅 Consistently solving 2 problems per day
 - 💪 Goal: Complete all 75 problems by [February 23, 2025]
 
