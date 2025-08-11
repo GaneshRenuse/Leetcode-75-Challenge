@@ -40,15 +40,15 @@ The repository is organized as follows:
 ## 🗂️ **Table of Contents**
 | Topics Covered                           | Problems Solved |
 |------------------------------------------|-----------------|
-| Arrays, Strings                          | 9               |
-| Two Pointers                             | 4               |
-| Sliding Window                           | 4               |
-| Prefix Sum                               | 2               |
-| HashMap/Set                              | 4               |
-| Stack                                    | 3               |
-| Queue                                    | 2               |
-| LinkedList                               | 4               |
-| Binary tree DFS-BFS                      | 8               |
+| Arrays, Strings                          | 1               |
+| Two Pointers                             |                 |
+| Sliding Window                           |                 |
+| Prefix Sum                               |                 |
+| HashMap/Set                              |                 |
+| Stack                                    |                 |
+| Queue                                    |                 |
+| LinkedList                               |                 |
+| Binary tree DFS-BFS                      |                 |
 
 ---
 
@@ -68,9 +68,9 @@ The repository is organized as follows:
 ---
 
 ## 🏆 **Milestones**
-- 🎯 Solved 39/75 Problems
-- 📅 Consistently solving 2 problems per day
-- 💪 Goal: Complete all 75 problems by [February 23, 2025]
+- 🎯 Solved 01/75 Problems
+- 📅 Consistently solving 1-2 problems per day
+- 💪 Goal: Complete all 75 problems by [October 31, 2025]
 
 ---
 
