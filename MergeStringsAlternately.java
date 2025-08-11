@@ -2,10 +2,10 @@ import java.util.*;
 
 public class MergeStringsAlternately {
     public static String mergeAlternately(String word1, String word2) {
-        int length = Math.max(word1.length(), word2.length());
-        StringBuilder merged = new StringBuilder();
+        StringBuilder merged = new StringBuilder(word1.length() + word2.length());
 
-        for (int i = 0; i < length; i++) {
+        int i = 0, j = 0;
+        while (i < word1.length() || j < word2.length()) {
             if(i < word1.length()){
                 merged.append(word1.charAt(i));
             }
